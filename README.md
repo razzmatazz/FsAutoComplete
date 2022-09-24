@@ -38,7 +38,7 @@ Requirements:
 * .NET Core Sdk, see [global.json](global.json) for the exact version.
 
 1. Restore dotnet tools to install local Paket and FAKE `dotnet tool restore`
-2. Build FSAC with `dotnet fake build`
+2. Build FSAC with `dotnet run --project build`
 
 * To build release fsautocomplete binaries in `~/bin` directory, do run `dotnet fake build --target LocalRelease`
 * To build, run all tests and create packages, do run `dotnet fake build --target All`
